@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	alert(123);
 	//搜索切换
 	(function(){
 		var aLi=$('#menu li');
@@ -156,7 +155,7 @@ $(document).ready(function(){
 				iNow++;
 				iNow%=arr.length;
 				fnFade();
-			},1000);
+			},2000);
 		}
 		doMove();
 		uLi.hover(function(){clearInterval(timer)},function(){doMove()})
